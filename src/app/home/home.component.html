@@ -1,3 +1,6 @@
+This is my project in Angular5
+<br /><br />
+
 <div class="container color-dark">
   <div class="col">
       <p>Add a bucklet list item</p>
@@ -16,8 +19,9 @@
     </form>
 </div>
 <div class="col">
+    Click in the X to delete the goals
   <p class="life-container" *ngFor="let goal of goals; let i = index" (click)="removeItem(i)" >
-      {{goal}}
+      X  {{goal}}
   </p>
 </div>
 </div>
